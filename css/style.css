@@ -642,7 +642,9 @@ ul#recommends li .details {
     width: 40%
 }
 
-ul#jobs li p,
+ul#jobs li p{
+    line-height:150%;
+}
 ul#schools li > p,
 ul#project li > p,
 ul#recommends li > p {
