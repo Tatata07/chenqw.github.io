@@ -25,7 +25,7 @@
 		<!-- EMAIL SUBJECT -->
 		<input name="subject" id="subject" type="hidden" value="ZHIHUA·WEI Resume Email Message"/>
 		<!-- YOUR EMAIL ADDRESS -->
-		<input name="repemail" id="repemail" type="hidden" value="zhihua_wei@foxmail.com"/>
+		<input name="repemail" id="repemail" type="hidden" value="chenqw07@foxmail.com"/>
 		<!-- ENTER YOUR URL BELOW: MUST CONTAIN #contact AT THE END OF THE URL-->
 		<input name="pagelink" id="pagelink" type="hidden" value="http://resume.zhihuawei.xyz/index_ch.html#return"/>
 		<input name="send" id="submit_btn" type="submit" class="round3 clearRight" value="发送"/>
