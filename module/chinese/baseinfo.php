@@ -25,8 +25,8 @@
 
 	<!--BASE INFORMATION - PERSONAL INFORMATION-->
 	<p>
-		我是一个网页开发者，并且也是一个后端程序员，目前工作生活在郑州。
-		全栈工程师是我的目标， 让编程改变世界是我的理想。
+		我是一个狗屎，目前工作生活在郑州。
+		垃圾是我的目标， 让编程改变世界是我的理想。
 		在 <a title="CSDN" target="_blank" href="http://blog.csdn.net/zhihua_w">CSDN</a> 我是一个很活跃的用户，我很开心在那里可以写我的技术博客分享给大家。
 		除此之外，我还已经做过很多<a title="保险信息处理系统" data-rel="prettyPhoto[pp_gal]" href="images/projectPhoto/baoxian.png">项目</a>。
 		欢迎大家相互学习。
