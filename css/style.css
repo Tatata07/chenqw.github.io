@@ -371,9 +371,9 @@ ul#seenOn li {
 }
 
 ul#seenOn li img {
-    height: 30px;
-    width: auto;
-    padding: 3px;
+    height: auto;
+    width: 800px;
+    padding: 24px;
 }
 
 /* ------------------------*/
