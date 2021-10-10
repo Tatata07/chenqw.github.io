@@ -372,7 +372,7 @@ ul#seenOn li {
 
 ul#seenOn li img {
     height: auto;
-    width: auto;
+    width: 100%;
     padding: 12px;
 }
 
