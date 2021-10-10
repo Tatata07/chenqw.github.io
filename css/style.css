@@ -363,15 +363,15 @@ ul#recommends li > h3 {
 ul#seenOn li {
     display: inline-block;
     position: relative;
-    border: 1px solid #eee;
-    margin-right: 2px;
-    height: 36px;
-    border-radius: 4px;
-    line-height: 30px;
+    border: 3px solid #fff;
+    margin-right: 20px;
+    height: 500px;
+    border-radius:30px;
+    line-height: 800px;
 }
 
 ul#seenOn li img {
-    height: auto;
+    height: 800px;
     width: 800px;
     padding: 24px;
 }
