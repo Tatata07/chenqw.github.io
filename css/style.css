@@ -364,16 +364,16 @@ ul#seenOn li {
     display: inline-block;
     position: relative;
     border: 0px solid #000;
-    margin-right: 20px;
-    height: 500px;
-    border-radius:30px;
-    line-height: 800px;
+    /* margin-right: 20px; */
+    /* height: 500px; */
+    /* border-radius:30px;
+    line-height: 800px; */
 }
 
 ul#seenOn li img {
     height: auto;
-    width: 100%;
-    padding: 12px;
+    width: 105%;
+    /* padding: 12px; */
 }
 
 /* ------------------------*/
@@ -622,7 +622,7 @@ ul#schools,
 ul#recommends,
 ul#project,
 ul#seenOn {
-    margin: 0;
+    /* margin: 0; */
     list-style: none;
 }
 
@@ -725,13 +725,13 @@ body.respond #bio p {
 
 body.respond ul#seenOn li {
     height: auto;
-    line-height: 1em;
+    /* line-height: 1em; */
 }
 
 body.respond ul#seenOn li img {
-    width: 96%;
+    width: 100%;
     height: auto;
-    padding: 2%;
+    /* padding: 2%; */
 }
 
 body.respond ul#jobs li .details,
