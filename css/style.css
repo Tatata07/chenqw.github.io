@@ -733,7 +733,7 @@ body.respond ul#seenOn li {
 }
 
 body.respond ul#seenOn li img {
-    width: 96%;
+    width: 1080px;
     height: auto;
     padding: 2%;
 }
