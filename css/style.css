@@ -23,7 +23,7 @@ body {
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.2em;
     background-color: #f3f3f3;
-    background-image: url(../images/patterns/soft_wallpaper.png);
+    background-image: url(../images/patterns/snow.png);
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: 0px 0px;
@@ -33,9 +33,9 @@ body {
 }
 
 #wrapper {
-    max-width: 700px;
+    max-width: 1080px;
     margin: 60px auto 30px;
-    padding: 60px;
+    padding: 30px;
     background: #fff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
     position: relative;
@@ -48,6 +48,7 @@ ul {
 
 li {
     margin: 0 0 5px 0;
+    width: 100%;
     font-size: 13px;
 }
 
@@ -119,7 +120,7 @@ h3 {
 /* ------------------------*/
 h2.sectionHead {
     clear: both;
-    font: bold 20px/12px 'verdana', sans-serif;
+    font: bold 40px/12px 'verdana', sans-serif;
     margin: 40px -60px;
     border-left: 52px solid #444;
     color: #444;
@@ -365,14 +366,14 @@ ul#seenOn li {
     position: relative;
     border: 0px solid #000;
     /* margin-right: 20px; */
-    /* height: 500px; */
-    /* border-radius:30px;
-    line-height: 800px; */
+    height: 500px;
+    border-radius:30px;
+    line-height: 800px;
 }
 
 ul#seenOn li img {
     height: auto;
-    width: 105%;
+    width: 100%;
     /* padding: 12px; */
 }
 
@@ -622,7 +623,7 @@ ul#schools,
 ul#recommends,
 ul#project,
 ul#seenOn {
-    /* margin: 0; */
+    margin: 0;
     list-style: none;
 }
 
@@ -725,13 +726,13 @@ body.respond #bio p {
 
 body.respond ul#seenOn li {
     height: auto;
-    /* line-height: 1em; */
+    line-height: 1em;
 }
 
 body.respond ul#seenOn li img {
-    width: 100%;
+    width: 96%;
     height: auto;
-    /* padding: 2%; */
+    padding: 2%;
 }
 
 body.respond ul#jobs li .details,
