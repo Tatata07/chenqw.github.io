@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif，'Times New Roman';
     line-height: 1.2em;
     background-color: #f3f3f3;
     background-image: url(../images/patterns/snow.png);
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 教育经历 */
 h3 {
     font-weight: bold;
-    margin: 40px 40px 0 40px;
+    margin: 20px 40px 0 40px;
     color: rgb(135, 208, 221);
     font-size: 24px
 }
@@ -130,7 +130,6 @@ h4 {
     color: rgb(50, 50, 50);
     font-size: 22px
 }
-
 /* --------------------------*/
 /*---SECTION TITLES STUFF---*/
 /* ------------------------*/
@@ -218,8 +217,8 @@ h2#contact:before {
     color: rgb(150, 150, 150);
     /* font-size: 16px; */
     letter-spacing: 0px;
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -238,8 +237,8 @@ h2#contact:before {
     font-weight: bold;
     padding: 10px 0px;
     max-width:60px;
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -280,11 +279,11 @@ h2#contact:before {
     /* font-size: 16px; */
     letter-spacing: -0.5px;
     /* width: 800px; */
-    text-align: right;
+    text-align: left;
     letter-spacing: px;
     padding: 10px 0px 10px 0px;
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -305,8 +304,8 @@ h2#contact:before {
     color: rgb(150, 150, 150);
     /* font-size: 16px; */
     letter-spacing: 0px;
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
 
 
 
@@ -320,8 +319,8 @@ h2#contact:before {
     color: rgb(150, 150, 150);
     padding: 10px 0px; */
     /* max-width: 760px; */
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -786,9 +785,28 @@ ul#recommends li {
 
 ul#jobs li .details,
 ul#schools li .details,{
+    /* 教育细节 */
     float: left;
     width: 120%;
 }
+ul#schools li .details h6 
+    {
+        /* 时间右对齐 */
+        
+        /* font-weight: bold; */
+        /* margin: 0px ; */
+        /* color: rgb(135, 208, 221);
+        font-size: 240px; */
+
+        /* clear: right; */
+        /* width: auto; */
+        /* max-width: 790px; */
+        /* text-align: right; */
+        /* letter-spacing: 0px; */
+        /* background: #fbfbfb;
+        border: 1px solid #f3f3f3; */
+    }
+
 ul#project li .details,{
     width: 60%
 }
@@ -826,7 +844,7 @@ ul#recommends li > p {
     font-size: 17px;    
     width: auto;
     font-size: 17px;
-    max-width: 790px;
+    max-width: 800px;
     font-weight: 100;
     text-align: right;
     letter-spacing: 0px;
