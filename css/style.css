@@ -824,7 +824,7 @@ ul#recommends li > p {
     line-height: 200%; 
     color: rgb(150, 150, 150);
     font-size: 17px;    
-    width: 200%;
+    width: auto;
     font-size: 17px;
     max-width: 790px;
     font-weight: 100;
