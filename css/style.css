@@ -122,7 +122,7 @@ h4 {
     font-size: 24px;
     padding: 10px 0px;
     max-width: 760px;
-    margin: 10px 40px;
+    margin: 10px 40px 0 40px;
     font-weight: lighter;
     color: rgb(50, 50, 50);
     font-size: 22px
@@ -203,15 +203,18 @@ h2#contact:before {
 }
 
 #bio h2 {
-    clear: left;
-    font-weight: lighter;
+    /* clear: left; */
+    /* 联系我 */
     height: 20px;
-    width: 220px;
+    width: 300px;
     margin: 0px 0 0 0px;
     font-size: 22px;
- 
     padding: 10px 0px;
     max-width: 760px;
+    font-weight: lighter;
+    color: rgb(150, 150, 150);
+    /* font-size: 16px; */
+    letter-spacing: 0px;
     /* background: #fbfbfb;
     border: 1px solid #f3f3f3; */
     /* border-radius: 8px;
@@ -244,7 +247,7 @@ h2#contact:before {
     clear: left;
     height: 20px;
     color: #8AD0DD;
-    width: 220px;
+    width: 200px;
     margin: 0px 0 0 40px;
     font-size: 22px;
     font-weight: bold;
@@ -261,21 +264,23 @@ h2#contact:before {
 
 #bio h5 {
     /* 社会实践小字 */
-    clear: left;
+    /* clear: left; */
+    font-weight: lighter;
+    color: rgb(150, 150, 150);
+    font-size: 17px;
+    letter-spacing: 0px;
     height: 20px;
-    width: 760px;
+    width: 800px;
     text-align: right;
     margin: 0px 40px 0 0px;
-    font-size: 16px;
-    font-weight: lighter;
     padding: 10px 0px;
     /* background: #fbfbfb;
     border: 1px solid #f3f3f3; */
-    border-radius: 8px;
+    /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
     border-color: #fff #f3f3f3 #e8e8e8;
-    line-height: 1.6em;
+    line-height: 1.6em; */
 }
 /* 表格属性 */
 
@@ -286,6 +291,7 @@ h2#contact:before {
     margin: 0px 0 0 0px;
     font-size: 22px;
     font-weight: lighter;
+    color: rgb(150, 150, 150);
     padding: 10px 0px;
     /* max-width: 760px; */
     /* background: #fbfbfb;
@@ -775,13 +781,14 @@ ul#recommends li > p {
     width: 57%;
     margin-bottom: 25px;
 }
-/* 教育经历 */
+/* 教育经历小字 */
 .details h5 {
-    margin: 10px 40px;
+    margin: 00px 40px;
+    line-height: 200%;
     font-weight: lighter;
     color: rgb(150, 150, 150);
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 17px;
+    letter-spacing: 0px;
 }
 
 /* ------------------------*/
