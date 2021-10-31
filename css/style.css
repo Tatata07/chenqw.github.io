@@ -89,6 +89,7 @@ a:hover {
 #sticker h2.sectionHead {
     font-size: 24px;
     border: none;
+    font-weight: ;
     margin: 0 0 0 50px;
     line-height: 45px;
     padding: 0 0 0 8px;
@@ -96,6 +97,7 @@ a:hover {
 
 #sticker h2.sectionHead:before {
     font-size: 48px;
+    font-weight: lighter;
     left: -40px;
     top: 0px;
 }
@@ -252,10 +254,10 @@ h2#contact:before {
     margin: 0px 0 0 40px;
     font-size: 22px;
     font-weight: bold;
-    padding: 10px 0px;
+    padding: 10px 0px 10px 0;
     max-width: 760px;
-    /* background: #fbfbfb;
-    border: 1px solid #f3f3f3; */
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -266,16 +268,22 @@ h2#contact:before {
 #bio h5 {
     /* 社会实践小字 */
     /* clear: left; */
-    font-weight: 400;
-    color: rgb(150, 150, 150);
-    font-size: 17px;
     height: 20px;
-    width: 800px;
+    width: 120%;
+    margin: 0 0px;
+    font-size: 17px;
+    /* padding: 10px 0px 10px 200px; */
+    max-width: 760px;
+    font-weight: 100;
+    color: rgb(150, 150, 150);
+    /* font-size: 16px; */
+    letter-spacing: -0.5px;
+    /* width: 800px; */
     text-align: right;
-    margin: 0px 40px 0 0px;
-    padding: 10px 0px;
-    /* background: #fbfbfb;
-    border: 1px solid #f3f3f3; */
+    letter-spacing: px;
+    padding: 10px 0px 10px 0px;
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -807,7 +815,51 @@ ul#recommends li > p {
     font-size: 17px;
     letter-spacing: 0px;
 }
+.details h6 {
+    /* 社会实践小字 */
+    clear: right;
+    height: 20px;
+    margin: 0px 40px 0 0px;
+    line-height: 200%; 
+    color: rgb(150, 150, 150);
+    font-size: 17px;    
+    width: 200%;
+    font-size: 17px;
+    max-width: 795px;
+    font-weight: 100;
+    text-align: right;
+    letter-spacing: 0px;
+    padding: 5px 0px 15px 0px;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
+    /* border-radius: 8px;
+    position: relative;
+    border-width: 0 1px 1px;
+    border-color: #fff #f3f3f3 #e8e8e8;
+    line-height: 1.6em; */
+}
+.details h1 {
+    /* 社会实践大字 */
+    clear: left;
+    height: 20px;
+    margin: 0 0 0 40px;
+    font-size: 22px;
+    max-width: 760px;
+    font-weight: 700;
+    color: #8AD0DD;
+    letter-spacing: -0px;
+    text-align: left;
+    letter-spacing: 0px;
+    padding: 10px 0px ;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
+    /* border-radius: 8px;
+    position: relative;
+    border-width: 0 1px 1px;
+    border-color: #fff #f3f3f3 #e8e8e8;
+    line-height: 1.6em; */
 
+}
 /* ------------------------*/
 /*---COPYRIGHT STUFF------*/
 /* ----------------------*/
