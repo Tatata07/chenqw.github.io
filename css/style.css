@@ -109,7 +109,7 @@ a:hover {
 /*------H TAG STUFF-------*/
 /* ----------------------*/
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    font-weight: lighter;
 }
 /* 教育经历 */
 h3 {
@@ -123,7 +123,7 @@ h4 {
     padding: 10px 0px;
     max-width: 760px;
     margin: 10px 40px 0 40px;
-    font-weight: lighter;
+    font-weight: 100;
     color: rgb(50, 50, 50);
     font-size: 22px
 }
@@ -204,19 +204,19 @@ h2#contact:before {
 
 #bio h2 {
     /* clear: left; */
-    /* 联系我 */
+    /* 联系我标题 */
     height: 20px;
-    width: 300px;
+    /* width: 20%; */
     margin: 0px 0 0 0px;
     font-size: 22px;
     padding: 10px 0px;
     max-width: 760px;
-    font-weight: lighter;
+    font-weight: 100;
     color: rgb(150, 150, 150);
     /* font-size: 16px; */
     letter-spacing: 0px;
-    /* background: #fbfbfb;
-    border: 1px solid #f3f3f3; */
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -226,16 +226,17 @@ h2#contact:before {
 }
 #bio h3 {
     /* 联系我 */
+    
     clear: left;
     height: 20px;
-    width: 80px;
+    /* width: 100%; */
     margin: 0px 0 0 40px;
     font-size: 24px;
     font-weight: bold;
     padding: 10px 0px;
     /* max-width: 760px; */
-    /* background: #fbfbfb;
-    border: 1px solid #f3f3f3; */
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -265,7 +266,7 @@ h2#contact:before {
 #bio h5 {
     /* 社会实践小字 */
     /* clear: left; */
-    font-weight: lighter;
+    font-weight: 400;
     color: rgb(150, 150, 150);
     font-size: 17px;
     height: 20px;
@@ -284,17 +285,34 @@ h2#contact:before {
 /* 表格属性 */
 
 #bio p {
-    clear: left;
+    /* 联系我内容 */
     height: 20px;
-    width: 600px;
+    /* width: 20%; */
     margin: 0px 0 0 0px;
+    font-size: 22px;
+    padding: 10px 0px;
+    max-width: 760px;
+    font-weight: 100;
+    color: rgb(150, 150, 150);
+    /* font-size: 16px; */
+    letter-spacing: 0px;
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
+
+
+
+
+    /* clear: left;
+    height: 20px; */
+    /* width: 100%; */
+    /* margin: 0px 0 0 0px;
     font-size: 22px;
     font-weight: lighter;
     color: rgb(150, 150, 150);
-    padding: 10px 0px;
+    padding: 10px 0px; */
     /* max-width: 760px; */
-    /* background: #fbfbfb;
-    border: 1px solid #f3f3f3; */
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -679,7 +697,7 @@ li.s10 {
 }
 
 #contactform input[type="submit"] {
-    width: inherit;
+    /* width: inherit; */
     float: right;
     clear: both;
     color: #fff;
