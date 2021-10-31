@@ -210,7 +210,7 @@ h2#contact:before {
     /* 联系我标题 */
     height: 20px;
     /* width: 20%; */
-    margin: 0px 0 0 0px;
+    /* margin: 0 0 0 0px; */
     font-size: 22px;
     padding: 10px 0px;
     max-width: 760px;
@@ -232,12 +232,12 @@ h2#contact:before {
     
     clear: left;
     height: 20px;
-    /* width: 100%; */
-    margin: 0px 0 0 40px;
+    /* width: 40%; */
+    margin: 0 0 0 40px;
     font-size: 24px;
     font-weight: bold;
     padding: 10px 0px;
-    /* max-width: 760px; */
+    max-width:60px;
     background: #fbfbfb;
     border: 1px solid #f3f3f3;
     /* border-radius: 8px;
