@@ -123,7 +123,7 @@ h4 {
     padding: 10px 0px;
     max-width: 760px;
 
-    margin: 0px 60px;
+    margin: 10px 60px;
     font-weight: lighter;
     color: rgb(50, 50, 50);
     font-size: 22px
@@ -445,9 +445,10 @@ ul#seenOn li img {
 
 /* ------------------------*/
 /*---SKILLS STUFF---------*/
+/* 技能 */
 /* -----------------------*/
 ul#skills {
-    margin: 0;
+    margin: 0 60px;
     width: 100%;
     overflow: hidden;
     background: url(../images/loading.gif) no-repeat center 30%;
@@ -459,8 +460,10 @@ ul#skills.ready {
 
 ul#skills li {
     position: relative;
+    margin: 10px 0;
+    height: auto;
     right: 100%;
-    background-color: #444;
+    background-color: rgb(138, 208, 221);
     color: #fff;
     font: bold 9px/20px sans-serif;
     letter-spacing: 1px;
@@ -475,10 +478,11 @@ ul#skills li:after {
     position: absolute;
     top: 0;
     right: 5px;
+    font-size: 24px;
     line-height: 26px;
     width: 50px;
     text-align: right;
-    color: #aaa;
+    color: rgb(255, 255, 255);
 }
 
 ul#skills li.s100:after {
@@ -491,6 +495,10 @@ ul#skills li.s95:after {
 
 ul#skills li.s90:after {
     content: "90%";
+}
+
+ul#skills li.s85:after {
+    content: "85%";
 }
 
 ul#skills li.s80:after {
@@ -534,11 +542,12 @@ ul#skills li.s10:after {
 }
 
 ul#skills li span {
+    font-size: 24px;
     display: none;
 }
 
 ul#skills li:hover {
-    background: #CACACA;
+    background: rgb(255, 206, 106);
 }
 
 li.s100 {
@@ -727,7 +736,7 @@ ul#recommends li > p {
 }
 /* 教育经历 */
 .details h5 {
-    margin: 0 60px;
+    margin: 10px 60px;
     font-weight: lighter;
     color: rgb(150, 150, 150);
     font-size: 18px;
