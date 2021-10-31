@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 教育经历 */
 h3 {
     font-weight: bold;
-    margin: 40px 60px 0 60px;
+    margin: 40px 40px 0 40px;
     color: rgb(135, 208, 221);
     font-size: 24px
 }
@@ -122,7 +122,7 @@ h4 {
     font-size: 24px;
     padding: 10px 0px;
     max-width: 760px;
-    margin: 10px 60px;
+    margin: 10px 40px;
     font-weight: lighter;
     color: rgb(50, 50, 50);
     font-size: 22px
@@ -204,11 +204,12 @@ h2#contact:before {
 
 #bio h2 {
     clear: left;
+    font-weight: lighter;
     height: 20px;
     width: 220px;
     margin: 0px 0 0 0px;
     font-size: 22px;
-    font-weight: lighter;
+ 
     padding: 10px 0px;
     max-width: 760px;
     /* background: #fbfbfb;
@@ -221,10 +222,11 @@ h2#contact:before {
     
 }
 #bio h3 {
+    /* 联系我 */
     clear: left;
     height: 20px;
     width: 80px;
-    margin: 0px 0 0 60px;
+    margin: 0px 0 0 40px;
     font-size: 24px;
     font-weight: bold;
     padding: 10px 0px;
@@ -237,18 +239,19 @@ h2#contact:before {
     border-color: #fff #f3f3f3 #e8e8e8;
     line-height: 1.6em; */
 }
-#bio h4 {
+#bio h4 {  
+    /* 社会实践大字 */
     clear: left;
     height: 20px;
     color: #8AD0DD;
     width: 220px;
-    margin: 0px 0 0 60px;
-    font-size: 24px;
+    margin: 0px 0 0 40px;
+    font-size: 22px;
     font-weight: bold;
     padding: 10px 0px;
     max-width: 760px;
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
     /* border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -257,16 +260,17 @@ h2#contact:before {
 }
 
 #bio h5 {
+    /* 社会实践小字 */
     clear: left;
     height: 20px;
-    width: 800px;
-    box-align:right;
-    margin: 0px 0 0 0px;
+    width: 760px;
+    text-align: right;
+    margin: 0px 40px 0 0px;
     font-size: 16px;
     font-weight: lighter;
     padding: 10px 0px;
-    background: #fbfbfb;
-    border: 1px solid #f3f3f3;
+    /* background: #fbfbfb;
+    border: 1px solid #f3f3f3; */
     border-radius: 8px;
     position: relative;
     border-width: 0 1px 1px;
@@ -485,7 +489,7 @@ ul#seenOn li img {
 /* 技能 */
 /* -----------------------*/
 ul#skills {
-    margin: 0 60px;
+    margin: 0 40px;
     width: 100%;
     overflow: hidden;
     background: url(../images/loading.gif) no-repeat center 30%;
@@ -773,7 +777,7 @@ ul#recommends li > p {
 }
 /* 教育经历 */
 .details h5 {
-    margin: 10px 60px;
+    margin: 10px 40px;
     font-weight: lighter;
     color: rgb(150, 150, 150);
     font-size: 18px;
